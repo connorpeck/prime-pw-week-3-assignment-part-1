@@ -84,16 +84,32 @@ console.log( 'My food list is now', favoriteFoods);
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
+favoriteFoods[1]= 'Eggs'
+console.log(favoriteFoods[1]);
+console.log('Updated list of favorite foods is:', favoriteFoods);
+
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
+console.log('4.f stretch goal');
+
+favoriteFoods.sort();
+favoriteFoods.reverse();
+
+console.log('reverse sorted favorite foods are', favoriteFoods);
 
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
+console.log('4.g stretch goal');
+
+console.log('Converted to string, added and:', favoriteFoods.join(' and '));
 
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+console.log('4.h stretch goal');
+let favorites= favoriteFoods + animalArray;
+console.log('new array of favorites:', favorites);
